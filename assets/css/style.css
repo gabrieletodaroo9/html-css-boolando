@@ -1,11 +1,11 @@
 /* ROOT */
 
-:root{
-    --boo-primary:#ff6900;
-    --boo-dark:#1a1a1a;
-    --boo-light:#fefdf7;
-    --boo-true:#008000;
-    --boo-false:#ff0000;
+:root {
+    --boo-primary: #ff6900;
+    --boo-dark: #1a1a1a;
+    --boo-light: #fefdf7;
+    --boo-true: #008000;
+    --boo-false: #ff0000;
 }
 
 /* RESET */
@@ -25,37 +25,78 @@ body {
 /* UTILS */
 
 .container {
-    width:70%;
+    width: 70%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-a{
+a {
     text-decoration: none;
     color: var(--boo-light);
 }
 
-.d-flex{
+.d-flex {
     display: flex;
 }
 
-.justify-content-between{
-   justify-content: space-between;
+.justify-content-between {
+    justify-content: space-between;
 }
 
-.align-items-center{
+.align-items-center {
     align-items: center;
 }
 
-.bg-primary{
+.bg-primary {
     background-color: var(--boo-primary);
 }
 
-.logo img{
+.logo img {
     height: 40px;
     margin: 10px;
 }
 
-.icons{
+.icons {
     color: #fefdf7;
+}
+
+.img-card {
+    width: 33%;
+    margin-top: 5rem;
+}
+
+.img-card>img {
+    width: 100%;
+}
+
+
+/* CARD */
+
+.img-card{
+    position:relative ;
+}
+
+.sale-price {
+    color: var(--boo-false);
+    padding-right: 1rem;
+}
+
+.real-price {
+    text-decoration: line-through;
+}
+
+.bg-icon-heart .fa-heart{
+    position: absolute;
+    top: 50px;
+    right:-29px;
+        background-color: white;
+    padding:1rem 2.3rem 1rem 1rem;
+    font-size: 24p;
+    transform: translate(-50%,-50%);
+}
+.sale-alert{
+    background-color:var(--boo-false);
+    padding: 0.5rem 1.2rem;
+    position: absolute;
+    bottom: 4rem;
 }
