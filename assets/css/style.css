@@ -1,0 +1,61 @@
+/* ROOT */
+
+:root{
+    --boo-primary:#ff6900;
+    --boo-dark:#1a1a1a;
+    --boo-light:#fefdf7;
+    --boo-true:#008000;
+    --boo-false:#ff0000;
+}
+
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERICS */
+
+body {
+    font-family: sans-serif;
+}
+
+/* UTILS */
+
+.container {
+    width:70%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: var(--boo-light);
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content-between{
+   justify-content: space-between;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.bg-primary{
+    background-color: var(--boo-primary);
+}
+
+.logo img{
+    height: 40px;
+    margin: 10px;
+}
+
+.icons{
+    color: #fefdf7;
+}
