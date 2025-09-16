@@ -8,6 +8,8 @@
     --boo-false: #ff0000;
 }
 
+/* DEBUG */
+
 /* RESET */
 
 * {
@@ -22,11 +24,12 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-header{
+header {
     position: sticky;
     top: 0;
     z-index: 2;
 }
+
 /* UTILS */
 
 .container {
@@ -81,7 +84,7 @@ header {
     background-color: var(--boo-dark);
 }
 
-/* CARD */
+/* CARD-SECTION*/
 
 main>.container {
     margin-bottom: 5rem;
@@ -173,4 +176,17 @@ footer .fa-brands {
         color: var(--boo-false);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
+}
+
+.photo-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+
+    &:hover {
+        opacity: 100%;
+        transition: opacity 0.5s ease-in-out
+    }
+
 }
