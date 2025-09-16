@@ -85,7 +85,7 @@ header {
     width: 300px;
 }
 
-.sale-price {
+.price {
     color: var(--boo-false);
     padding-right: 1rem;
 }
@@ -119,6 +119,10 @@ header {
     bottom: 4rem;
     left: 4.6rem;
     font-size: 0.7rem;
+}
+
+.eco-friendly.ef-align{
+    left: 0;
 }
 
 main>.container {
