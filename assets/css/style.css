@@ -93,13 +93,13 @@ header {
 
 main>.container {
     margin-bottom: 5rem;
-    gap: 1rem;
+    gap: 3rem;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .card {
-    width: 20rem;
+    width: 250px;
 }
 
 .img-card {
